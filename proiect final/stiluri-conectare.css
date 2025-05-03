@@ -1,0 +1,39 @@
+﻿body {
+    background-image: url('imagine.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+label, input {
+    width: 100%;
+}
+
+.btn {
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+    .btn:hover {
+        background-color: cornflowerblue;
+    }
+.textbox {
+    overflow-y: auto;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: underline;
+}
